@@ -21,9 +21,9 @@
 <meta content="Designer Signatures | Email Signature Management for Companies" name="twitter:title"/>
 <meta content="Professional email signature management for companies across Outlook, Gmail, Apple Mail and mobile." name="twitter:description"/>
 <meta content="telephone=no" name="format-detection"/>
-<link href="https://raw.githubusercontent.com/Tmiddleton40/Designersignatures-/main/Designer_Signatures_offficial-logo.png?v=2" rel="icon" type="image/png"/>
-<link href="https://raw.githubusercontent.com/Tmiddleton40/Designersignatures-/main/Designer_Signatures_offficial-logo.png?v=2" rel="shortcut icon" type="image/png"/>
-<link href="https://raw.githubusercontent.com/Tmiddleton40/Designersignatures-/main/Designer_Signatures_offficial-logo.png?v=2" rel="apple-touch-icon"/>
+<link href="https://github.com/Tmiddleton40/Designersignatures-/blob/main/Designer_Signatures_Icon.png?raw=true" rel="icon" type="image/png"/>
+<link href="https://github.com/Tmiddleton40/Designersignatures-/blob/main/Designer_Signatures_Icon.png?raw=true" rel="shortcut icon" type="image/png"/>
+<link href="https://github.com/Tmiddleton40/Designersignatures-/blob/main/Designer_Signatures_Icon.png?raw=true" rel="apple-touch-icon"/>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&amp;family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,300&amp;display=swap" rel="stylesheet"/>
 <style>
 /* ═══════════════════════ TOKENS ═══════════════════════ */
@@ -1422,6 +1422,7 @@ body.modal-open{overflow:hidden}
   #consultModal h3{font-size:30px}
   #consultModal .cm-sub{font-size:14px}
 }
+
 </style>
 <meta content="Email signature management for companies in the UK. Create professional team email signatures for Outlook, Gmail and Apple Mail with consistent branding, central control and simple deployment." name="description"/><meta content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" name="robots"/><meta content="#090e1a" name="theme-color"/><meta content="website" property="og:type"/><meta content="Email Signature Management for Companies | Designer Signatures UK" property="og:title"/><meta content="Professional email signature management for teams using Outlook, Gmail and Apple Mail. Keep every employee on-brand with centrally managed signatures." property="og:description"/><meta content="https://designersignatures.co.uk/" property="og:url"/><meta content="Designer Signatures" property="og:site_name"/><meta content="en_GB" property="og:locale"/><meta content="summary_large_image" name="twitter:card"/><meta content="Email Signature Management for Companies | Designer Signatures UK" name="twitter:title"/><meta content="Professional team email signatures for Outlook, Gmail and Apple Mail with central management and consistent branding." name="twitter:description"/><link href="https://designersignatures.co.uk/" rel="canonical"><script type="application/ld+json">[{"@context": "https://schema.org", "@type": "Organization", "name": "Designer Signatures", "url": "https://designersignatures.co.uk/", "email": "admin@designersignatures.co.uk", "description": "Designer Signatures provides branded email signature design and email signature management for companies.", "areaServed": "GB"}, {"@context": "https://schema.org", "@type": "WebSite", "name": "Designer Signatures", "url": "https://designersignatures.co.uk/"}, {"@context": "https://schema.org", "@type": "Service", "serviceType": "Email signature management", "name": "Company email signature design and management", "provider": {"@type": "Organization", "name": "Designer Signatures", "url": "https://designersignatures.co.uk/"}, "areaServed": "GB", "audience": {"@type": "BusinessAudience", "audienceType": "Companies and teams"}, "description": "Professional email signature management for companies using Outlook, Gmail and Apple Mail."}, {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What is email signature management?", "acceptedAnswer": {"@type": "Answer", "text": "Email signature management is the process of controlling employee email signatures centrally so branding, contact details, banners and disclaimers stay consistent across the company."}}, {"@type": "Question", "name": "Do company email signatures help branding?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Professional company email signatures help businesses look more credible, keep messaging consistent and make every employee email feel aligned with the brand."}}, {"@type": "Question", "name": "Can email signatures work across Outlook, Gmail and Apple Mail?", "acceptedAnswer": {"@type": "Answer", "text": "They can, but they need to be designed carefully because different email clients render HTML differently."}}, {"@type": "Question", "name": "Who is this service best for?", "acceptedAnswer": {"@type": "Answer", "text": "This service is best for companies that want branded team email signatures, central management and a more polished look across staff emails."}}]}]</script>
 <style id="type-tuning">
@@ -7761,6 +7762,553 @@ body{
 }
 </style>
 
+
+
+
+
+<style id="checkout-pricing-flow-css">
+.checkout-pricing{
+  position:relative!important;
+}
+
+.checkout-package-grid{
+  max-width:940px!important;
+}
+
+.checkout-package-card{
+  display:flex!important;
+  flex-direction:column!important;
+}
+
+.checkout-package-card .pricing-v2-list{
+  flex:1 1 auto!important;
+}
+
+.checkout-modal{
+  position:fixed;
+  inset:0;
+  z-index:9999;
+  display:none;
+  align-items:center;
+  justify-content:center;
+  padding:22px;
+}
+
+.checkout-modal.open{
+  display:flex;
+}
+
+.checkout-backdrop{
+  position:absolute;
+  inset:0;
+  background:rgba(7,17,38,.42);
+  backdrop-filter:blur(16px);
+  -webkit-backdrop-filter:blur(16px);
+}
+
+.checkout-dialog{
+  position:relative;
+  z-index:1;
+  width:min(760px,100%);
+  max-height:92vh;
+  overflow:auto;
+  background:rgba(248,251,250,.98);
+  border:1px solid rgba(203,213,225,.86);
+  border-radius:28px;
+  padding:28px;
+  box-shadow:0 34px 90px rgba(7,17,38,.22);
+}
+
+.checkout-close{
+  position:absolute;
+  top:18px;
+  right:18px;
+  width:42px;
+  height:42px;
+  border-radius:999px;
+  border:1px solid rgba(15,23,42,.10);
+  background:#fff;
+  color:#071126;
+  font-size:28px;
+  line-height:1;
+  box-shadow:0 12px 26px rgba(15,23,42,.08);
+}
+
+.checkout-modal-head{
+  padding-right:52px;
+  margin-bottom:20px;
+}
+
+.checkout-modal-head h2{
+  margin:10px 0 8px;
+  color:#071126;
+  font-size:clamp(30px,4vw,46px);
+  line-height:1;
+  letter-spacing:-.04em;
+}
+
+.checkout-modal-head p{
+  margin:0;
+  color:#64748b;
+  font-size:14px;
+  line-height:1.65;
+  max-width:600px;
+}
+
+.checkout-form{
+  display:grid;
+  gap:16px;
+}
+
+.checkout-selected,
+.checkout-order-preview{
+  display:grid;
+  grid-template-columns:auto 1fr auto;
+  align-items:center;
+  gap:12px;
+  background:#fff;
+  border:1px solid #e2e8f0;
+  border-radius:16px;
+  padding:14px 16px;
+  box-shadow:0 14px 32px rgba(15,23,42,.045);
+}
+
+.checkout-mini-icon{
+  width:30px;
+  height:30px;
+  border-radius:999px;
+  background:rgba(16,185,129,.10);
+  border:1px solid rgba(16,185,129,.25);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.checkout-mini-icon span{
+  width:9px;
+  height:9px;
+  border-radius:999px;
+  background:#10b981;
+}
+
+.checkout-order-preview{
+  grid-template-columns:1fr auto;
+}
+
+.checkout-selected span,
+.checkout-order-preview span{
+  color:#64748b;
+  font-size:11px;
+  font-weight:850;
+  letter-spacing:.12em;
+  text-transform:uppercase;
+}
+
+.checkout-selected strong,
+.checkout-order-preview strong{
+  color:#071126;
+  font-weight:850;
+}
+
+.checkout-selected em{
+  color:#10b981;
+  font-style:normal;
+  font-size:24px;
+  font-weight:900;
+}
+
+.checkout-grid{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:14px;
+}
+
+.checkout-form label{
+  display:grid;
+  gap:8px;
+  color:#071126;
+  font-size:12px;
+  font-weight:850;
+  letter-spacing:.08em;
+  text-transform:uppercase;
+}
+
+.checkout-label-title{
+  display:flex;
+  align-items:center;
+  gap:8px;
+}
+
+.checkout-label-title::before{
+  content:"";
+  width:7px;
+  height:7px;
+  border-radius:999px;
+  background:#10b981;
+  box-shadow:0 0 0 5px rgba(16,185,129,.10);
+}
+
+.checkout-form input,
+.checkout-form select,
+.checkout-form textarea{
+  width:100%;
+  min-height:54px;
+  border-radius:14px;
+  border:1px solid #dbe4ee;
+  background:#fff;
+  padding:0 15px;
+  color:#071126;
+  font-size:15px;
+  font-weight:500;
+  outline:none;
+}
+
+.checkout-form textarea{
+  min-height:116px;
+  padding:14px 15px;
+  resize:vertical;
+  line-height:1.55;
+}
+
+.checkout-form input:focus,
+.checkout-form select:focus,
+.checkout-form textarea:focus{
+  border-color:rgba(16,185,129,.58);
+  box-shadow:0 0 0 4px rgba(16,185,129,.10);
+}
+
+.checkout-upload-box{
+  background:#fff;
+  border:1px dashed rgba(16,185,129,.45);
+  border-radius:18px;
+  padding:18px;
+  box-shadow:0 14px 32px rgba(15,23,42,.04);
+}
+
+.checkout-upload-box strong{
+  display:block;
+  color:#071126;
+  font-size:16px;
+  margin-bottom:4px;
+}
+
+.checkout-upload-box p{
+  margin:0 0 12px;
+  color:#64748b;
+  font-size:13px;
+  line-height:1.55;
+}
+
+.checkout-upload-box input{
+  padding:13px;
+  min-height:auto;
+  background:#fff;
+}
+
+.checkout-actions{
+  display:flex;
+  gap:12px;
+  align-items:center;
+  flex-wrap:wrap;
+}
+
+.checkout-actions .pricing-v2-btn{
+  flex:1 1 210px;
+  text-align:center;
+  min-height:52px;
+}
+
+.checkout-pay-link.disabled{
+  opacity:.45;
+  pointer-events:none;
+  filter:grayscale(.25);
+}
+
+.checkout-small-print{
+  margin:0;
+  color:#64748b;
+  font-size:12px;
+  line-height:1.55;
+}
+
+@media(max-width:700px){
+  .checkout-grid{
+    grid-template-columns:1fr;
+  }
+
+  .checkout-dialog{
+    padding:22px;
+    border-radius:22px;
+  }
+
+  .checkout-modal-head{
+    padding-right:42px;
+  }
+
+  .checkout-selected{
+    grid-template-columns:auto 1fr;
+  }
+
+  .checkout-selected em{
+    grid-column:1 / -1;
+  }
+}
+</style>
+
+
+
+<style id="pricing-platform-size-reset">
+#pricing .pricing-v2-platform{
+  max-width:960px!important;
+  margin:0 auto!important;
+  display:grid!important;
+  grid-template-columns:260px 1fr!important;
+  gap:24px!important;
+  align-items:center!important;
+  padding:22px 26px!important;
+  border-radius:24px!important;
+  background:rgba(255,255,255,.86)!important;
+  border:1px solid rgba(216,226,236,.95)!important;
+  box-shadow:0 18px 46px rgba(15,23,42,.055)!important;
+}
+
+#pricing .pricing-v2-platform span{
+  display:block!important;
+  margin-bottom:6px!important;
+  color:#6b7a90!important;
+  font-size:12px!important;
+  font-weight:850!important;
+  letter-spacing:.10em!important;
+  text-transform:uppercase!important;
+}
+
+#pricing .pricing-v2-platform strong{
+  color:#071126!important;
+  font-size:24px!important;
+  line-height:1!important;
+  letter-spacing:-.035em!important;
+  white-space:normal!important;
+}
+
+#pricing .pricing-v2-platform p{
+  margin:0!important;
+  color:#607086!important;
+  font-size:14px!important;
+  line-height:1.55!important;
+}
+
+@media(max-width:980px){
+  #pricing .pricing-v2-platform{
+    max-width:560px!important;
+    grid-template-columns:1fr!important;
+  }
+}
+</style>
+
+
+<style id="checkout-package-proof-note-css">
+#pricing .proof-note,
+.hiw-proof-note{
+  margin:10px 0 0!important;
+  text-align:center!important;
+  color:#64748b!important;
+  font-size:12.5px!important;
+  line-height:1.4!important;
+  font-weight:650!important;
+}
+
+#pricing .proof-note::before,
+.hiw-proof-note::before{
+  content:"";
+  display:inline-block;
+  width:6px;
+  height:6px;
+  border-radius:999px;
+  background:#10b981;
+  margin-right:7px;
+  vertical-align:1px;
+}
+
+.hiw-proof-note{
+  color:#475569!important;
+  margin-top:0!important;
+}
+
+.checkout-package-select-wrap{
+  margin-top:-2px!important;
+}
+
+.checkout-package-select-wrap select{
+  font-weight:750!important;
+}
+
+.checkout-pay-link.disabled{
+  opacity:.45!important;
+  pointer-events:none!important;
+  filter:grayscale(.25)!important;
+}
+</style>
+
+
+<style id="hero-see-how-alone-fix">
+#hero .cw-hero-actions{
+  justify-content:center!important;
+}
+
+#hero .cw-hero-actions .cw-secondary-link,
+#hero .cw-hero-actions a:not(.cw-main-btn),
+#hero .cw-hero-actions button:not(.cw-main-btn){
+  margin-left:0!important;
+}
+
+@media(max-width:760px){
+  #hero .cw-hero-actions{
+    gap:0!important;
+  }
+}
+</style>
+
+
+<style id="remove-delivered-lower-pill-final">
+.cw-delivered-pill,
+[class*="delivered-pill"]{
+  display:none!important;
+  height:0!important;
+  margin:0!important;
+  padding:0!important;
+  overflow:hidden!important;
+}
+</style>
+
+<style id="ds-get-signature-shimmer">
+/* Shimmer effect for the "Get your signature" buttons */
+#nav.cw-nav .cw-nav-btn.checkout-open-general,
+#mob-menu .mobile-signature-link.checkout-open-general{
+  position:relative !important;
+  overflow:hidden !important;
+  isolation:isolate !important;
+}
+
+#nav.cw-nav .cw-nav-btn.checkout-open-general::before,
+#mob-menu .mobile-signature-link.checkout-open-general::before{
+  content:"";
+  position:absolute;
+  top:-20%;
+  left:-35%;
+  width:28%;
+  height:140%;
+  background:linear-gradient(
+    115deg,
+    rgba(255,255,255,0) 0%,
+    rgba(255,255,255,0.14) 30%,
+    rgba(255,255,255,0.55) 50%,
+    rgba(255,255,255,0.14) 70%,
+    rgba(255,255,255,0) 100%
+  );
+  transform:skewX(-22deg);
+  animation:dsButtonShimmer 3.2s ease-in-out infinite;
+  pointer-events:none;
+  z-index:0;
+}
+
+#nav.cw-nav .cw-nav-btn.checkout-open-general > *,
+#mob-menu .mobile-signature-link.checkout-open-general > *{
+  position:relative;
+  z-index:1;
+}
+
+@keyframes dsButtonShimmer{
+  0%{ left:-38%; opacity:0; }
+  8%{ opacity:1; }
+  45%{ left:112%; opacity:1; }
+  60%{ left:112%; opacity:0; }
+  100%{ left:112%; opacity:0; }
+}
+</style>
+
+
+<style id="checkout-form-logo-branding">
+.checkout-brand-logo-only{
+  display:flex!important;
+  align-items:center!important;
+  justify-content:flex-start!important;
+  margin:0 0 16px!important;
+  padding:0!important;
+}
+
+.checkout-brand-logo-only img{
+  display:block!important;
+  width:auto!important;
+  height:auto!important;
+  max-height:44px!important;
+  max-width:230px!important;
+  object-fit:contain!important;
+}
+
+@media(max-width:700px){
+  .checkout-brand-logo-only{
+    margin-bottom:14px!important;
+  }
+
+  .checkout-brand-logo-only img{
+    max-height:38px!important;
+    max-width:190px!important;
+  }
+}
+</style>
+
+
+<style id="checkout-x-click-fix">
+.checkout-close{
+  z-index:50!important;
+  cursor:pointer!important;
+  pointer-events:auto!important;
+}
+.checkout-dialog{
+  position:relative!important;
+}
+</style>
+
+
+<style id="stripe-link-click-fix">
+.checkout-pay-link{
+  pointer-events:auto!important;
+  cursor:pointer!important;
+}
+
+.checkout-pay-link.disabled{
+  opacity:.45!important;
+  pointer-events:none!important;
+  cursor:not-allowed!important;
+}
+</style>
+
+
+<style id="hero-pill-one-line-fix">
+#hero .cw-pill{
+  white-space:nowrap!important;
+  max-width:calc(100vw - 32px)!important;
+  overflow:visible!important;
+  text-wrap:nowrap!important;
+}
+
+@media(max-width:560px){
+  #hero .cw-pill{
+    font-size:clamp(10px,2.7vw,12px)!important;
+    padding-left:12px!important;
+    padding-right:12px!important;
+    gap:7px!important;
+  }
+}
+
+@media(max-width:390px){
+  #hero .cw-pill{
+    font-size:10px!important;
+    letter-spacing:.02em!important;
+  }
+}
+</style>
+
 </head>
 <body>
 <!-- ══════════ NAV ══════════ -->
@@ -7777,7 +8325,7 @@ body{
 </div>
 <div class="cw-nav-actions">
 <a class="cw-login" href="https://designer-signatures.replit.app" id="sinbtn">Log in</a>
-<button class="cw-nav-btn open-consultation" data-heading="Get your signature" data-package="General enquiry" data-source="Top nav" type="button">Get your signature</button>
+<button class="cw-nav-btn checkout-open checkout-open-general" data-source="Top nav" type="button">Get your signature</button>
 <button aria-label="Open menu" class="ham" id="ham" type="button"><span></span><span></span><span></span></button>
 </div>
 </nav>
@@ -7788,25 +8336,24 @@ body{
 <a href="javascript:void(0)" onclick="document.getElementById('process')?.scrollIntoView({behavior:'smooth'})">Process</a>
 <a href="javascript:void(0)" onclick="document.getElementById('pricing')?.scrollIntoView({behavior:'smooth'})">Pricing</a>
 <a class="mobile-login-link" href="https://designer-signatures.replit.app">Log in</a>
-<button class="mobile-signature-link open-consultation" data-heading="Get your signature" data-package="General enquiry" data-source="Mobile menu" type="button">Get your signature</button>
+<button class="mobile-signature-link checkout-open checkout-open-general" data-source="Mobile menu" type="button">Get your signature</button>
 </div>
 <!-- ══════════ HERO ══════════ -->
 <section class="cw-home" id="hero">
 <div class="cw-grid-bg"></div>
 <div class="cw-hero-copy">
-<div class="cw-pill"><span></span>Beautiful email signatures, managed properly</div>
+<div class="cw-pill"><span></span>Delivered beautifully across Outlook, Gmail, mobile &amp; others</div>
 <h1>
 <span>Your Brand</span>
 <span class="cw-gradient">In Every Email</span>
 </h1>
-<p>Professional email signatures, designed and managed for your whole team. Create a consistent brand experience across Outlook, Gmail, Apple Mail and mobile.</p>
+<p>Professional email signatures for your whole team — designed to keep your brand consistent across every inbox.</p>
 <div class="cw-hero-actions">
-<button class="cw-main-btn open-consultation" data-heading="Get your signature" data-package="Hero enquiry" data-source="Homepage hero" type="button">Get your signature</button>
 <a class="cw-text-btn" href="#comparison">See how it works</a>
 </div>
 </div>
 <div class="cw-hero-stage image-hero-stage mode-toggle-hero" id="modeToggleHero">
-<div class="cw-delivered-pill reveal-on-scroll">Delivered beautifully across Outlook, Gmail and mobile</div>
+<div class="cw-delivered-pill reveal-on-scroll"></div>
 <div class="mode-visual-card reveal-on-scroll" data-reveal-delay="120">
 <div aria-label="Email signature preview mode toggle" class="mode-toggle-bar">
 <button class="mode-toggle-btn active" data-mode="light" type="button">Light mode</button>
@@ -7862,6 +8409,7 @@ body{
 <div class="wv" style="background:var(--light)"></div>
 <!-- ══════════ TEMPLATES GALLERY ══════════ -->
 <!-- ══════════ AI VS DESIGNERSIGNATURES ══════════ -->
+
 <section class="comparison-video-section clean-compare" id="comparison" style="background:linear-gradient(180deg,#f8fbfd 0%,#eef7f3 100%);padding:86px 0 92px;position:relative;overflow:hidden">
 <style>
     #comparison.clean-compare .cmp-wrap{max-width:1220px;margin:0 auto;position:relative;z-index:1;}
@@ -8393,6 +8941,7 @@ Disclaimer: This email and any attachments are confidential and intended only fo
 </div>
 </div>
 </section>
+
 <section id="editfields" class="app-control-section">
 <div class="wrap">
 
@@ -8571,72 +9120,180 @@ Disclaimer: This email and any attachments are confidential and intended only fo
 </div>
 </section>
 <!-- ══════════ PRICING ══════════ -->
-<section class="pricing-clean-v2" id="pricing">
-<div class="wrap pricing-v2-wrap">
-<div class="pricing-v2-head reveal">
-<div class="pricing-v2-pill"><span></span> Packages</div>
-<h2>Simple pricing.<br/><em>Clear options.</em></h2>
-<p>Choose the signature design you need. The management platform is simple: £10 per user, per year from the second user onward.</p>
-</div>
-<div class="pricing-v2-grid">
-<article class="pricing-v2-card reveal">
-<div class="pricing-v2-card-head">
-<div>
-<span class="pricing-v2-label">Standard</span>
-<h3>Clean branded signature</h3>
-</div>
-<span class="pricing-v2-badge">Most common</span>
-</div>
-<div class="pricing-v2-price">
-<span>£</span>99
+
+<!-- ══════════ PRICING / CHECKOUT ══════════ -->
+<section class="pricing-clean-v2 checkout-pricing" id="pricing">
+  <div class="wrap pricing-v2-wrap">
+    <div class="pricing-v2-head reveal">
+      <div class="pricing-v2-pill"><span></span> Packages</div>
+      <h2>Simple pricing.<br/><em>Clear checkout.</em></h2>
+      <p>Choose your signature design, send your details and design references, then continue to secure payment. The management platform is £10 per user, per year from the second user onward.</p>
+    </div>
+
+    <div class="pricing-v2-grid checkout-package-grid">
+      <article class="pricing-v2-card checkout-package-card reveal" data-checkout-package="Standard Design" data-checkout-price="99">
+        <div class="pricing-v2-card-head">
+          <div>
+            <span class="pricing-v2-label">Standard</span>
+            <h3>Clean branded signature</h3>
+          </div>
+          <span class="pricing-v2-badge">Most common</span>
         </div>
-<p class="pricing-v2-period">once-off design</p>
-<p class="pricing-v2-desc">Best for a clean professional signature using your logo, brand colours, contact details and standard sections.</p>
-<ul class="pricing-v2-list">
-<li>Custom email signature design</li>
-<li>Logo, icons and brand colours</li>
-<li>Banner or standard image area</li>
-<li>Dashboard access</li>
-<li>Image hosting included</li>
-</ul>
-<button class="pricing-v2-btn secondary open-consultation" data-heading="Standard Design" data-package="Standard Design" data-source="Pricing Standard" type="button">Get started</button>
-</article>
-<article class="pricing-v2-card pricing-v2-featured reveal stagger-1">
-<div class="pricing-v2-card-head">
-<div>
-<span class="pricing-v2-label">Custom</span>
-<h3>More tailored signature</h3>
-</div>
-<span class="pricing-v2-badge dark">Recommended</span>
-</div>
-<div class="pricing-v2-price">
-<span>£</span>199
+        <div class="pricing-v2-price"><span>£</span>99</div>
+        <p class="pricing-v2-period">once-off design</p>
+        <p class="pricing-v2-desc">Best for a clean professional signature using your logo, brand colours, contact details and standard sections.</p>
+        <ul class="pricing-v2-list">
+          <li>Custom email signature design</li>
+          <li>Logo, icons and brand colours</li>
+          <li>Banner or standard image area</li>
+          <li>Dashboard access</li>
+          <li>Image hosting included</li>
+        </ul>
+        <button class="pricing-v2-btn secondary checkout-open" data-package="Standard Design" data-price="99" type="button">Buy now</button>
+        <p class="proof-note">Get first proof within 24 hours.</p>
+      </article>
+
+      <article class="pricing-v2-card pricing-v2-featured checkout-package-card reveal stagger-1" data-checkout-package="Custom Design" data-checkout-price="199">
+        <div class="pricing-v2-card-head">
+          <div>
+            <span class="pricing-v2-label">Custom</span>
+            <h3>More tailored signature</h3>
+          </div>
+          <span class="pricing-v2-badge dark">Recommended</span>
         </div>
-<p class="pricing-v2-period">once-off design</p>
-<p class="pricing-v2-desc">Best for more complex layouts with extra fields, multiple headshots, accreditations or a more bespoke structure.</p>
-<ul class="pricing-v2-list">
-<li>Everything in Standard</li>
-<li>More than 4 custom fields</li>
-<li>Multiple profile images or headshots</li>
-<li>More advanced layout options</li>
-<li>Ideal for larger or detailed signatures</li>
-</ul>
-<button class="pricing-v2-btn primary open-consultation" data-heading="Custom Design" data-package="Custom Design" data-source="Pricing Custom" type="button">Get started</button>
-</article>
-</div>
-<div class="pricing-v2-platform reveal stagger-2">
-<div>
-<span>Management platform</span>
-<strong>£10 per user / year</strong>
-</div>
-<p>From the second user onward. Add users later as your team grows.</p>
-</div>
-</div>
+        <div class="pricing-v2-price"><span>£</span>199</div>
+        <p class="pricing-v2-period">once-off design</p>
+        <p class="pricing-v2-desc">Best for more complex layouts with extra fields, multiple headshots, accreditations or a more bespoke structure.</p>
+        <ul class="pricing-v2-list">
+          <li>Everything in Standard</li>
+          <li>More than 4 custom fields</li>
+          <li>Multiple profile images or headshots</li>
+          <li>More advanced layout options</li>
+          <li>Ideal for larger or detailed signatures</li>
+        </ul>
+        <button class="pricing-v2-btn primary checkout-open" data-package="Custom Design" data-price="199" type="button">Buy now</button>
+        <p class="proof-note">Get first proof within 24 hours.</p>
+      </article>
+    </div>
+
+    <div class="pricing-v2-platform reveal stagger-2">
+      <div>
+        <span>Management platform</span>
+        <strong>£10 per user / year</strong>
+      </div>
+      <p>From the second user onward. Add users later as your team grows.</p>
+    </div>
+  </div>
 </section>
+
+<div aria-hidden="true" class="checkout-modal" id="checkoutModal">
+  <div class="checkout-backdrop" data-checkout-close></div>
+  <div aria-modal="true" class="checkout-dialog" role="dialog">
+    <button aria-label="Close checkout" class="checkout-close" data-checkout-close type="button">×</button>
+
+    <div class="checkout-modal-head">
+      <div class="checkout-brand-logo-only">
+        <img alt="Designer Signatures logo" src="https://github.com/Tmiddleton40/Designersignatures-/blob/main/Designer_Signatures_offficial-logo.png?raw=true"/>
+      </div>
+      <div class="pricing-v2-pill"><span></span> Secure checkout</div>
+      <h2 id="checkoutTitle">Complete your order</h2>
+      <p>Send the details first, then continue to payment. Your order number will stay attached to the payment.</p>
+    </div>
+
+    
+    <form class="checkout-form" enctype="multipart/form-data" id="checkoutForm" method="post">
+      <input id="checkoutOrderNumber" name="order_number" type="hidden"/>
+      <input id="checkoutPackage" name="package" type="hidden"/>
+      <input id="checkoutAmount" name="amount" type="hidden"/>
+
+      <div class="checkout-selected">
+        <div class="checkout-mini-icon"><span></span></div>
+        <span>Selected</span>
+        <strong id="checkoutSelectedPackage">Package</strong>
+        <em id="checkoutSelectedPrice">£0</em>
+      </div>
+
+      <label class="checkout-package-select-wrap"><span class="checkout-label-title">Choose package *</span>
+        <select id="checkoutPackageSelect" name="selected_package" required>
+          <option value="">Select a package...</option>
+          <option value="Standard Design" data-price="99">Standard Design — £99</option>
+          <option value="Custom Design" data-price="199">Custom Design — £199</option>
+        </select>
+      </label>
+
+
+      <div class="checkout-grid">
+        <label><span class="checkout-label-title">Company name *</span>
+          <input name="company_name" placeholder="Acme Ltd" required type="text"/>
+        </label>
+        <label><span class="checkout-label-title">Your name *</span>
+          <input name="contact_name" placeholder="Jane Smith" required type="text"/>
+        </label>
+      </div>
+
+      <label><span class="checkout-label-title">Email address *</span>
+        <input name="email" placeholder="jane@company.co.uk" required type="email"/>
+      </label>
+
+      <div class="checkout-grid">
+        <label><span class="checkout-label-title">Team size</span>
+          <select name="team_size">
+            <option value="">Select...</option>
+            <option>1 user</option>
+            <option>2-5 users</option>
+            <option>6-15 users</option>
+            <option>16-50 users</option>
+            <option>50+ users</option>
+          </select>
+        </label>
+        <label><span class="checkout-label-title">Email client(s)</span>
+          <select name="email_clients">
+            <option value="">Select...</option>
+            <option>Outlook</option>
+            <option>Gmail</option>
+            <option>Apple Mail</option>
+            <option>Outlook, Gmail and Apple Mail</option>
+            <option>Not sure</option>
+          </select>
+        </label>
+      </div>
+
+      <label><span class="checkout-label-title">Design requirements</span>
+        <textarea name="design_requirements" placeholder="Tell me what you want included, colours, layout ideas, banner requirements, social icons, accreditations, etc."></textarea>
+      </label>
+
+      <div class="checkout-upload-box">
+        <div>
+          <strong>Upload design references</strong>
+          <p>Logo, current signature, brand guide, images, screenshots or examples you like.</p>
+        </div>
+        <input accept=".png,.jpg,.jpeg,.webp,.svg,.pdf,.doc,.docx" multiple name="design_files" type="file"/>
+      </div>
+
+      <div class="checkout-order-preview">
+        <span>Order number</span>
+        <strong id="checkoutOrderPreview">DS-000000</strong>
+      </div>
+
+      <div class="checkout-actions">
+        <button class="pricing-v2-btn secondary" id="checkoutSubmitDetails" type="submit">Send details</button>
+        <a class="pricing-v2-btn primary checkout-pay-link disabled" href="#" id="checkoutPayLink" rel="noopener" target="_blank">Continue to payment</a>
+      </div>
+
+      <p class="checkout-small-print">
+        Payment links still need to be added. Once connected, the payment provider can email the order number and company name after payment.
+      </p>
+    </form>
+  </div>
+</div>
+
 <style>
 #process.process-exact-interactive .hiw2-buy-wrap{
   display:flex;
+  flex-direction:column;
+  align-items:center;
   justify-content:center;
+  gap:10px;
   margin-top:34px;
   padding-top:8px;
 }
@@ -8734,7 +9391,8 @@ Disclaimer: This email and any attachments are confidential and intended only fo
 </div>
 </div>
 <div class="hiw2-buy-wrap reveal">
-<button class="hiw2-buy-btn open-consultation" data-heading="Buy now" data-package="Standard Design" data-source="How it works Buy now" type="button"><span>Buy now</span></button>
+<button class="hiw2-buy-btn checkout-open checkout-open-general" data-source="How it works Buy now" type="button"><span>Buy now</span></button>
+<p class="proof-note hiw-proof-note">Get first proof within 24 hours.</p>
 </div>
 </section>
 <section id="templates" class="templates-lower" style="background:#090e1a;padding:70px 0 42px">
@@ -8988,7 +9646,7 @@ Disclaimer: This email and any attachments are confidential and intended only fo
 <p>Get a professional email signature designed for your team, your brand and the inboxes your clients actually use.</p>
 </div>
 <div class="cta-cleaner-actions">
-<button class="cta-cleaner-btn primary open-consultation" data-heading="Standard Design" data-package="Standard Design" data-source="CTA Get started from £99" type="button">Get started from £99</button>
+<button class="cta-cleaner-btn primary checkout-open" data-package="Standard Design" data-price="99" data-source="CTA Get started from £99" type="button">Get started from £99</button>
 <button class="cta-cleaner-btn secondary open-consultation" data-heading="Book a Free Consultation" data-package="General enquiry" data-source="CTA Book a consultation" type="button">Book a consultation</button>
 </div>
 </div>
@@ -10289,6 +10947,225 @@ document.addEventListener('DOMContentLoaded', function(){
   setMode('light');
 });
 </script>
+
+<script id="checkout-pricing-flow-js">
+(function(){
+  var PACKAGE_PRICES = {
+    "Standard Design": "99",
+    "Custom Design": "199"
+  };
+
+  var PAYMENT_LINKS = {
+    "Standard Design": "https://buy.stripe.com/28E3cx63c1fN0qv4UHcwg05",
+    "Custom Design": "https://buy.stripe.com/7sYcN763c3nV3CHbj5cwg03"
+  };
+
+  var FORM_ENDPOINT = "https://formsubmit.co/ajax/admin@designersignatures.co.uk";
+
+  var modal = document.getElementById("checkoutModal");
+  var form = document.getElementById("checkoutForm");
+  var title = document.getElementById("checkoutTitle");
+  var selectedPackage = document.getElementById("checkoutSelectedPackage");
+  var selectedPrice = document.getElementById("checkoutSelectedPrice");
+  var orderInput = document.getElementById("checkoutOrderNumber");
+  var packageInput = document.getElementById("checkoutPackage");
+  var amountInput = document.getElementById("checkoutAmount");
+  var orderPreview = document.getElementById("checkoutOrderPreview");
+  var payLink = document.getElementById("checkoutPayLink");
+  var packageSelect = document.getElementById("checkoutPackageSelect");
+
+  function makeOrderNumber(){
+    var now = new Date();
+    var y = String(now.getFullYear()).slice(-2);
+    var m = String(now.getMonth() + 1).padStart(2, "0");
+    var d = String(now.getDate()).padStart(2, "0");
+    var rand = Math.floor(1000 + Math.random() * 9000);
+    return "DS-" + y + m + d + "-" + rand;
+  }
+
+  function buildStripeLink(baseLink, orderNo, pkg){
+    var separator = baseLink.indexOf("?") === -1 ? "?" : "&";
+    return baseLink
+      + separator + "client_reference_id=" + encodeURIComponent(orderNo || "")
+      + "&metadata_order_number=" + encodeURIComponent(orderNo || "")
+      + "&metadata_package=" + encodeURIComponent(pkg || "");
+  }
+
+  function setPackage(pkg){
+    var price = PACKAGE_PRICES[pkg] || "";
+    var baseLink = PAYMENT_LINKS[pkg] || "";
+    var orderNo = orderInput ? orderInput.value : "";
+
+    selectedPackage.textContent = pkg || "Select a package";
+    selectedPrice.textContent = price ? "£" + price : "£0";
+    packageInput.value = pkg || "";
+    amountInput.value = price ? "£" + price : "";
+
+    if(packageSelect && packageSelect.value !== pkg){
+      packageSelect.value = pkg || "";
+    }
+
+    title.textContent = pkg ? pkg + " checkout" : "Choose your package";
+
+    if(pkg && baseLink){
+      payLink.href = buildStripeLink(baseLink, orderNo, pkg);
+      payLink.classList.remove("disabled");
+      payLink.setAttribute("aria-disabled","false");
+      payLink.textContent = "Continue to secure payment";
+    }else{
+      payLink.href = "#";
+      payLink.classList.add("disabled");
+      payLink.setAttribute("aria-disabled","true");
+      payLink.textContent = "Choose package first";
+    }
+  }
+
+  function openCheckout(pkg){
+    var orderNo = makeOrderNumber();
+
+    modal.classList.add("open");
+    modal.setAttribute("aria-hidden","false");
+    document.body.style.overflow = "hidden";
+
+    orderInput.value = orderNo;
+    orderPreview.textContent = orderNo;
+
+    setPackage(pkg || "");
+  }
+
+  function closeCheckout(){
+    modal.classList.remove("open");
+    modal.setAttribute("aria-hidden","true");
+    document.body.style.overflow = "";
+  }
+
+  function goToStripe(){
+    if(payLink && payLink.href && payLink.href !== "#"){
+      window.location.href = payLink.href;
+    }
+  }
+
+  function sendFormThenPay(){
+    if(!packageInput.value){
+      alert("Please choose a package first.");
+      return;
+    }
+
+    var submitButton = document.getElementById("checkoutSubmitDetails");
+    if(submitButton){
+      submitButton.disabled = true;
+      submitButton.textContent = "Sending details...";
+    }
+
+    var formData = new FormData(form);
+
+    fetch(FORM_ENDPOINT, {
+      method: "POST",
+      body: formData,
+      headers: { "Accept": "application/json" }
+    })
+    .then(function(response){
+      if(!response.ok) throw new Error("Form could not be sent.");
+      return response.json();
+    })
+    .then(function(){
+      if(submitButton) submitButton.textContent = "Details sent";
+      goToStripe();
+    })
+    .catch(function(){
+      if(submitButton){
+        submitButton.disabled = false;
+        submitButton.textContent = "Send details";
+      }
+      alert("The form details could not be sent. Please try again, or email admin@designersignatures.co.uk directly.");
+    });
+  }
+
+  document.querySelectorAll(".checkout-open").forEach(function(btn){
+    btn.addEventListener("click", function(){
+      openCheckout(btn.getAttribute("data-package") || "");
+    });
+  });
+
+  if(packageSelect){
+    packageSelect.addEventListener("change", function(){
+      setPackage(packageSelect.value);
+    });
+  }
+
+  document.querySelectorAll("[data-checkout-close]").forEach(function(el){
+    el.addEventListener("click", closeCheckout);
+  });
+
+  document.addEventListener("keydown", function(e){
+    if(e.key === "Escape" && modal.classList.contains("open")) closeCheckout();
+  });
+
+  if(form){
+    form.setAttribute("action", FORM_ENDPOINT);
+    form.setAttribute("method", "POST");
+    form.setAttribute("enctype", "multipart/form-data");
+
+    form.addEventListener("submit", function(e){
+      e.preventDefault();
+      sendFormThenPay();
+    });
+  }
+
+  if(payLink){
+    payLink.addEventListener("click", function(e){
+      e.preventDefault();
+
+      if(payLink.classList.contains("disabled") || !packageInput.value){
+        alert("Please choose a package first.");
+        return;
+      }
+
+      sendFormThenPay();
+    });
+  }
+})();
+</script>
+
+
+<script id="checkout-mobile-menu-close-js">
+document.addEventListener("click", function(e){
+  var btn = e.target.closest(".checkout-open");
+  if(!btn) return;
+  var mob = document.getElementById("mob-menu");
+  var ham = document.getElementById("ham");
+  if(mob) mob.classList.remove("open");
+  if(ham) ham.classList.remove("open");
+});
+</script>
+<script id="checkout-close-robust-fix">
+document.addEventListener("DOMContentLoaded", function(){
+  var modal = document.getElementById("checkoutModal");
+  if(!modal) return;
+
+  function closeCheckoutModal(){
+    modal.classList.remove("open");
+    modal.setAttribute("aria-hidden","true");
+    document.body.style.overflow = "";
+  }
+
+  document.addEventListener("click", function(e){
+    var closeTarget = e.target.closest("[data-checkout-close], .checkout-close");
+    if(closeTarget){
+      e.preventDefault();
+      e.stopPropagation();
+      closeCheckoutModal();
+    }
+  }, true);
+
+  document.addEventListener("keydown", function(e){
+    if(e.key === "Escape" && modal.classList.contains("open")){
+      closeCheckoutModal();
+    }
+  });
+});
+</script>
+
 </body>
 </html>
 <style id="hiw-minimal-clean-final-overrides">
