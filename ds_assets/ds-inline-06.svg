@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" width="900" height="560">
+  <defs>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#0f172a" flood-opacity=".13"/>
+    </filter>
+    <filter id="blurPrice">
+      <feGaussianBlur stdDeviation="5"/>
+    </filter>
+    <linearGradient id="greenGlow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ecfdf5"/>
+      <stop offset="1" stop-color="#ffffff"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="0" y="0" width="900" height="560" rx="34" fill="#fbfdff"/>
+
+  <text x="450" y="74" text-anchor="middle" font-family="Helvetica Neue, Arial, sans-serif" font-size="42" font-weight="600" fill="#071126">Our packages.</text>
+  <text x="450" y="123" text-anchor="middle" font-family="Helvetica Neue, Arial, sans-serif" font-size="40" font-weight="500" font-style="italic" fill="#11b981">Simple to choose.</text>
+  <text x="450" y="161" text-anchor="middle" font-family="Helvetica Neue, Arial, sans-serif" font-size="16" fill="#64748b">Simple setup, clear packages and £10 / year per user credit.</text>
+
+  <!-- Card 1 -->
+  <g filter="url(#softShadow)">
+    <rect x="82" y="214" width="230" height="278" rx="20" fill="#fff" stroke="#e5edf6"/>
+    <text x="108" y="252" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="800" letter-spacing="2.4" fill="#64748b">STANDARD DESIGN</text>
+
+    <g filter="url(#blurPrice)" opacity=".88">
+      <rect x="108" y="274" width="96" height="34" rx="9" fill="#071126"/>
+      <rect x="108" y="316" width="72" height="12" rx="6" fill="#64748b"/>
+    </g>
+    <rect x="108" y="348" width="162" height="1" fill="#e5edf6"/>
+
+    <g font-family="Helvetica Neue, Arial, sans-serif" font-size="14" fill="#334155">
+      <circle cx="120" cy="384" r="9" fill="#d1fae5"/><path d="M115 384l4 4 8-10" fill="none" stroke="#10b981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="138" y="389">Custom designed signature</text>
+
+      <circle cx="120" cy="420" r="9" fill="#d1fae5"/><path d="M115 420l4 4 8-10" fill="none" stroke="#10b981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="138" y="425">Admin dashboard login</text>
+
+      <circle cx="120" cy="456" r="9" fill="#d1fae5"/><path d="M115 456l4 4 8-10" fill="none" stroke="#10b981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="138" y="461">Includes support</text>
+    </g>
+  </g>
+
+  <!-- Card 2 -->
+  <g filter="url(#softShadow)">
+    <rect x="335" y="202" width="230" height="302" rx="20" fill="url(#greenGlow)" stroke="#9ee8cd"/>
+    <text x="361" y="242" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="800" letter-spacing="2.4" fill="#64748b">COMPLEX DESIGN</text>
+
+    <g filter="url(#blurPrice)" opacity=".88">
+      <rect x="361" y="265" width="106" height="38" rx="9" fill="#071126"/>
+      <rect x="361" y="315" width="72" height="12" rx="6" fill="#64748b"/>
+    </g>
+    <rect x="361" y="348" width="162" height="1" fill="#d7eee6"/>
+
+    <g font-family="Helvetica Neue, Arial, sans-serif" font-size="14" fill="#334155">
+      <circle cx="373" cy="384" r="9" fill="#d1fae5"/><path d="M368 384l4 4 8-10" fill="none" stroke="#10b981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="391" y="389">Everything in Standard</text>
+
+      <circle cx="373" cy="420" r="9" fill="#d1fae5"/><path d="M368 420l4 4 8-10" fill="none" stroke="#10b981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="391" y="425">More field markers</text>
+
+      <circle cx="373" cy="456" r="9" fill="#d1fae5"/><path d="M368 456l4 4 8-10" fill="none" stroke="#10b981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="391" y="461">Multiple headshots</text>
+    </g>
+  </g>
+
+  <!-- Card 3 -->
+  <g filter="url(#softShadow)">
+    <rect x="588" y="214" width="230" height="278" rx="20" fill="#fff" stroke="#e5edf6"/>
+    <text x="614" y="252" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="800" letter-spacing="2.4" fill="#64748b">ENTERPRISE</text>
+
+    <g filter="url(#blurPrice)" opacity=".88">
+      <rect x="614" y="274" width="112" height="34" rx="9" fill="#071126"/>
+      <rect x="614" y="316" width="112" height="12" rx="6" fill="#64748b"/>
+    </g>
+    <rect x="614" y="348" width="162" height="1" fill="#e5edf6"/>
+
+    <g font-family="Helvetica Neue, Arial, sans-serif" font-size="14" fill="#334155">
+      <circle cx="626" cy="384" r="9" fill="#d1fae5"/><path d="M621 384l4 4 8-10" fill="none" stroke="#10b981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="644" y="389">Everything in Complex</text>
+
+      <circle cx="626" cy="420" r="9" fill="#d1fae5"/><path d="M621 420l4 4 8-10" fill="none" stroke="#10b981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="644" y="425">Multiple template versions</text>
+
+      <circle cx="626" cy="456" r="9" fill="#d1fae5"/><path d="M621 456l4 4 8-10" fill="none" stroke="#10b981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="644" y="461">Priority support</text>
+    </g>
+  </g>
+</svg>
