@@ -1,0 +1,27 @@
+# https://designersignatures.co.uk/robots.txt
+
+User-agent: *
+Allow: /
+
+# Checkout/consultation query strings create duplicate URLs of the homepage
+Disallow: /*?package=
+Disallow: /*?source=
+Disallow: /*?s=
+
+# AI crawlers that cite sources - allowed deliberately
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+Sitemap: https://designersignatures.co.uk/sitemap.xml
